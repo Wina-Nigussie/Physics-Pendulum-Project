@@ -1,4 +1,4 @@
-from vpython import 
+#from vpython import 
 scene = canvas(title="Advanced Pendulum Analysis: Group 4 & 9", width=800, height=600, background=color.black)
 scene.center = vec(0, -2, 0)
 gd = graph(title="<b>Angular Displacement vs. Time</b>", xtitle="Time (s)", ytitle="Angle (radians)", 
