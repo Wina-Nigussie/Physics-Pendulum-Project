@@ -26,5 +26,5 @@ while t < 30:
     angle_curve.plot(t, theta)
     label_data.text = f'Time: {round(t,2)}s\nAngle: {round(degrees(theta),1)}°'
     t = t + dt
- # Verified by Bitanya: The string is correctly attached to the ceiling and bob.
+# Verified by Bitanya: The string is correctly attached to the ceiling and bob.
 # Verified by Ephrata: The bob radius is 0.4 and color is orange
