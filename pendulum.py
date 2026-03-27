@@ -18,6 +18,8 @@ string = cylinder(pos=ceiling.pos, axis=bob.pos - ceiling.pos, radius=0.04, colo
 label_data = label(pos=vec(4, 2, 0), text='', box=False, height=15)
 while t < 30:
     rate(100)
+    # We use rate(100) to keep the simulation running at real time speed
+    rate(100)
     alpha = -(g / L) * sin(theta) 
     # verified by Edidiya:this line calculates angular acceleration using the torque formula.
     omega = omega + alpha * dt
