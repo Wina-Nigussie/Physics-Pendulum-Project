@@ -18,4 +18,4 @@ This project simulates a simple pendulum released from an 85-degree angle. Inste
 This simulation investigates the motion of a simple pendulum released from a large angle ($85^{\circ}$). We aim to demonstrate how the period of oscillation deviates from the standard small-angle approximation ($T = 2\pi\sqrt{L/g}$) when using a high-amplitude release.
 
  "Added a 'Project Objective' section to the README to define the goals of the $85^\circ$ swing study."
- # Verified by Edilawit: The smoothness of the graph confirms the exchange of these energies.
+ # Verified by Edilawit: The smoothness of the graph confirms the stable exchange of these energies (potential and kinetic energies).
