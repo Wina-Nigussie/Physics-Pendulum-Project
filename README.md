@@ -19,3 +19,5 @@ This simulation investigates the motion of a simple pendulum released from a lar
 
 ## Parameter Definitions 
 To ensure consistency across the group, we defined specific physical constants for our simulation. The gravitational acceleration ($g$) is $9.8$ m/s², the string length ($L$) is $5.0$ meters, and the starting amplitude ($\theta$) is $1.48$ radians ($85^{\circ}$). These constants serve as the foundation for our numerical integration.
+## Final Results 
+Our computational model, using Euler's Method with a time step of $dt = 0.01$, calculated a real-world period of 5.14 seconds. This is significantly slower than the theoretical small-angle prediction of 4.49 seconds, proving the impact of large-angle physics.
