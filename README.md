@@ -4,7 +4,7 @@
 This repository contains a 3D physics simulation of a pendulum released at **85 degrees**, demonstrating the breakdown of the small-angle approximation.
 
 ## 📊 Visual Evidence
-![Pendulum](Media1.mp4)
+![Pendulum Simulation](simulation.gif)
 
 ## 🛠️ Project Components
 * **Python Script:** `pendulum.py` - Uses Euler's Method for numerical integration.
