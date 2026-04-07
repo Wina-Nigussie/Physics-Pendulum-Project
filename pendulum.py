@@ -17,7 +17,6 @@ bob = sphere(pos=vec(L*sin(theta), -L*cos(theta), 0), radius=0.4,
 string = cylinder(pos=ceiling.pos, axis=bob.pos - ceiling.pos, radius=0.04, color=color.gray(0.8))
 label_data = label(pos=vec(4, 2, 0), text='', box=False, height=15)
 while t < 30:
-    rate(100)
     # We use rate(100) to keep the simulation running at real time speed
     rate(100)
     alpha = -(g / L) * sin(theta) 
