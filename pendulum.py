@@ -1,5 +1,5 @@
 #from vpython import 
-scene = canvas(title="Advanced Pendulum Analysis: Group 4 & 9", width=800, height=600, background=color.black)
+scene = canvas(title="Advanced Pendulum Analysis: Group 4 & 10", width=800, height=600, background=color.black)
 scene.center = vec(0, -2, 0)
 gd = graph(title="<b>Angular Displacement vs. Time</b>", xtitle="Time (s)", ytitle="Angle (radians)", 
            width=500, height=300, fast=False)
