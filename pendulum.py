@@ -16,6 +16,17 @@ bob = sphere(pos=vec(L*sin(theta), -L*cos(theta), 0), radius=0.4,
              color=color.orange, make_trail=True, trail_type="points", interval=10, retain=50)
 string = cylinder(pos=ceiling.pos, axis=bob.pos - ceiling.pos, radius=0.04, color=color.gray(0.8))
 label_data = label(pos=vec(4, 2, 0), text='', box=False, height=15)
+# 1. Function to update the angle when the user types
+def set_angle(obj):
+    global theta
+    theta = float(obj.value) * pi / 180  # Convert degrees to radians
+    # Reset the ball position immediately
+    bob.pos = vec(L * sin(theta), -L * cos(theta), 0)
+    string.axis = bob.pos - ceiling.pos
+
+# 2. Create the Input Box on the screen
+print("Change the Start Angle (Degrees) and press Enter:")
+winput(bind=set_angle, text="85")
 while t < 30:
     # We use rate(100) to keep the simulation running at real time speed
     rate(100)
